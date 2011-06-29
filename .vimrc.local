@@ -1,0 +1,19 @@
+" Make tab navigation nicer
+map <C-J> :tabn<CR>
+map <C-K> :tabp<CR>
+
+" Make opening files in a new tab nicer
+map <C-O> :tabnew 
+
+" Show trailing whitepace and spaces before a tab:
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:autocmd Syntax * syn match ExtraWhitespace /\s\+$\| \+\ze\t/
+
+" Set background color for the current line
+:set cursorline
+
+" Turn off menu in gui
+set guioptions="agimrLt"
+
+" Turn off mouse click in gui
+set mouse=""

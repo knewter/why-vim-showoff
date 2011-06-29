@@ -1,0 +1,8 @@
+{ "name": "Why Vim?", "sections": [
+  {"section":"history"},
+  {"section": "basics" },
+  {"section": "an_awesome_config" },
+  {"section": "josh_config"},
+  {"section": "neat_commands"},
+  {"section": "bundles_etc" } 
+  ]}
